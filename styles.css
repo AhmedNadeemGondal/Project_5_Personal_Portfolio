@@ -95,9 +95,9 @@ main {
 }
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 3fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 3fr));
   grid-gap: 2rem;
-  padding: 0rem 4rem;
+  padding: 0rem 4rem 2rem 4rem;
   text-align: center;
 }
 
