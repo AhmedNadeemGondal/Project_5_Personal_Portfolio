@@ -90,7 +90,9 @@ main {
   padding-bottom: 2rem;
   text-align: center;
 }
-
+.grid p {
+  font-size: 1.5rem;
+}
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 3fr));
@@ -194,7 +196,7 @@ footer {
     margin: 2rem auto;
   }
   .grid {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
   }
   .work-text h1 {
     font-size: 3.5rem;
